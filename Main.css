@@ -1,9 +1,9 @@
 @font-face {
   font-family: Halfomania;
-  src: local(Halfomania-Regular), url('Fonts/Halfomania-Regular.ttf') format('truetype'),
+  src: local(Halfomania-Regular), url('Fonts/halfomania-regular.ttf') format('truetype'),
         url('Fonts/Halfomania-Regular.otf') format('opentype'),
-        url('Fonts/Halfomania-Regular.woff') format('woff'),
-        url('Fonts/Halfomania-Regular.woff2') format('woff2');
+        url('Fonts/halfomania-regular.woff') format('woff'),
+        url('Fonts/halfomania-regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
