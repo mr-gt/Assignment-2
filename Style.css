@@ -1,10 +1,11 @@
 @font-face {
   font-family: Halfomania;
-  src: local(Halfomania-Regular), url(fonts/Halfomania-Regular.ttf);
-  src: local(Halfomania-Regular), url(fonts/Halfomania-Regular.otf);
-  src: local(Halfomania-Regular), url(fonts/Halfomania-Regular.woff);
-  src: local(Halfomania-Regular), url(fonts/Halfomania-Regular.woff2);
-  font-weight: bold;
+  src: local(Halfomania-Regular), url(fonts/Halfomania-Regular.ttf) format('truetype'),
+        url(fonts/Halfomania-Regular.otf) format('opentype'),
+        url(fonts/Halfomania-Regular.woff) format('woff'),
+        url(fonts/Halfomania-Regular.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
 
@@ -15,7 +16,7 @@
     
   font-family: 'Halfomania';
     
-  src: local('halfomania-regular.woff2') format('woff2')
+  src: local('halfomania-regular.woff2') format('woff2');
   url('fonts/halfomania-regular.woff') format('woff');
     
   font-weight: normal;
@@ -34,9 +35,9 @@
     
   font-family: 'Halfomania';
     
-  src: local('halfomania-regular.woff2') format('woff2')
+  src: local('halfomania-regular.woff2') format('woff2');
          
-  url('fonts/halfomania-regular.woff') 
+  url('fonts/halfomania-regular.woff'); 
   format('woff');
     
   font-weight: normal;
