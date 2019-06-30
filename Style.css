@@ -4,6 +4,7 @@
   src: local(Halfomania-Regular), url(Halfomania-Regular.otf);
   src: local(Halfomania-Regular), url(Halfomania-Regular.woff);
   src: local(Halfomania-Regular), url(Halfomania-Regular.woff2);
+  font-weight: bold;
 }
 
 
