@@ -14,7 +14,16 @@ body,p {font-family: "Montserrat", sans-serif}
 .w3-row-padding img {margin-bottom: 12px}
 .w3-sidebar {width: 150px;background: #222;}
 #main {margin-left: 150px}
-@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+@media only screen and (max-width: 600px) {
+	#main {margin-left: 0}
+	<!-- Top menu on small screens -->
+	<header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
+  	<div class="w3-bar-item w3-padding-24 w3-wide">LOGO</div>
+  	<a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-left" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+</header>
+}
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 </style>
 <body class="w3-black">
 
@@ -66,6 +75,7 @@ body,p {font-family: "Montserrat", sans-serif}
   <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about" style="max-width:1200px">
     <h2 style="font-size: 100px; color: orange">Team Profile</h2>
 	<p>
+	16Personalities. (2019). Free personality test | 16Personalities. [Online] Available at: <a href="https://www.16personalities.com/free-personality-test">Myer-Briggs Test</a> [Accessed 10 Jun. 2019].<br>
 	</p>
     <h2 style="font-size: 100px; color: orange">Tools</h2>
 	<p>
@@ -90,7 +100,7 @@ body,p {font-family: "Montserrat", sans-serif}
 	</p>
     <h2 style="font-size: 100px; color: orange">Webpage</h2>
 	<p>
-	W3schools.com. (2019). W3.CSS Tutorial. [online] Available at: <a href="https://www.w3schools.com/w3css/default.asp" style="color: orange"> https://www.w3schools.com</a> [Accessed 1 Jul. 2019].<br>
+	W3schools.com. (2019). W3.CSS Tutorial. [Online] Available at: <a href="https://www.w3schools.com/w3css/default.asp" style="color: orange"> https://www.w3schools.com</a> [Accessed 1 Jul. 2019].<br>
 	W3schools.com. (2019). W3.CSS Templates. [Online] Available at: <a href="https://www.w3schools.com/w3css/w3css_templates.asp" style="color: orange"> https://www.w3schools.com</a> [Accessed 30 Jun. 2019].<br>
 	W3schools.com. (2019). HTML5 Tutorial. [Online] Available at: <a href="https://www.w3schools.com/html/default.asp" style="color: orange"> https://www.w3schools.com</a> [Accessed 30 Jun. 2019].<br>
 	</p>
