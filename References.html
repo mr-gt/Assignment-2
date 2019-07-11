@@ -14,10 +14,9 @@ body,p {font-family: "Montserrat", sans-serif}
 .w3-row-padding img {margin-bottom: 12px}
 .w3-sidebar {width: 150px;background: #222;}
 #main {margin-left: 150px}
-
-<!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
 </style>
+
 <body class="w3-black">
 
 <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
